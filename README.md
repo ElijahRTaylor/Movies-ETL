@@ -1,7 +1,7 @@
 # Movies-ETL
 
 ## Overview
-In order to create an automated pipeline that takes in new data and perform the appropriate transformations, and loads the data into existing tables.  We are creating a function that extracts movie data from wikipedia JSON data, as well as Kaggle data in CSV format. This function will transform the data, eliminating rows that we do not need, as well as transforming certain rows into a uniform structure.  Once our data has been cleaned sufficiently, our function will load the data into our Postgres SQL database.
+In order to create an automated pipeline that takes in new data and perform the appropriate transformations, we are creating a function that will do this for us. The function will extract movie data from wikipedia JSON data, as well as Kaggle data in CSV format. This function will transform the data, eliminate rows that we do not need, as well as transform certain rows into a uniform structure.  Once our data has been cleaned sufficiently, our function will load the data into our Postgres SQL database.
 
 
 #Procedure
