@@ -4,7 +4,7 @@
 In order to create an automated pipeline that takes in new data and perform the appropriate transformations, we are creating a function that will do this for us. The function will extract movie data from wikipedia JSON data, as well as Kaggle data in CSV format. This function will transform the data, eliminate rows that we do not need, as well as transform certain rows into a uniform structure.  Once our data has been cleaned sufficiently, our function will load the data into our Postgres SQL database.
 
 
-#Procedure
+# Procedure
 
 To make the function easier to understand, we created 4 files to break the process down into steps.   
 
